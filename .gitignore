@@ -1,0 +1,11 @@
+.DS_Store
+backend/venv
+backend/.idea
+backend/__pycache__
+backend/venv
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
