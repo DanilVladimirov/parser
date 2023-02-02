@@ -20,14 +20,7 @@ services:
       - ./dump.sql:/docker-entrypoint-initdb.d/dump.sql
     ports:
       - ${DB_PORT}:5432
-    networks:
-      - project_parser
 
 
 volumes:
   db-parser-data:
-
-
-networks:
-  project_parser:
-    external: true

@@ -3,10 +3,6 @@
 ### 1. Підняти базу даних, запустивши скрипт start_db.sh або ж самому ввести 2 команди
 
 ```
-docker network inspect project_parser >/dev/null 2>&1 || docker network create --driver bridge project_parser
-```
-
-```
 docker-compose --env-file=backend/.env up -d --build
 ```
 
